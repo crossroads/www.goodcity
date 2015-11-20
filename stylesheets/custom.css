@@ -1,0 +1,16 @@
+a.google-play{color: transparent !important;}
+a.google-play:after{
+    content:none !important;
+  }
+
+@media only screen and (min-width: 40.063em){
+  .google-play img{
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 40.062em){
+  .google-play img{
+    width: 67%;
+    padding-bottom: 2%;
+  }
+}
