@@ -3,8 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-itunes-app" content="app-id=1012253845"/>
+  <meta name="google-play-app" content="app-id=hk.goodcity.app">
   <title>GoodCity.HK 好人好市 - 慷慨捐贈，扶持弱勢社群。</title>
   <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/custom.css">
+  <link rel="stylesheet" href="bower_components/crossplatform-smartbanner/jquery.smartbanner-light.css">
   <script src="bower_components/modernizr/modernizr.js"></script>
   <style>
     body {
@@ -285,7 +289,13 @@
             <div id="intro-text">
               <h1>GoodCity<em>.HK</em><br><em class="chinese" lang="zh-hant">好人好市</em></h1>
               <h3>慷慨捐贈，扶持弱勢社群。</h3>
-              <div id="watch"><h2><a href="https://app.goodcity.hk"><i class="fa fa-play"></i>捐贈物資 </a></h2></div>
+                <a href="https://play.google.com/store/apps/details?id=hk.goodcity.app" class="google-play">
+                    <img alt="Get it on Google Play" src="assets/images/googel-play-badge-zh.png" class="android"/>
+                </a>
+                <a href="https://itunes.apple.com/in/app/goodcity.hk/id1012253845?mt=8" class="google-play">
+                  <img alt="Download on the App Store" src="assets/images/Download_on_the_App_Store_Badge_zh.png"/>
+                </a>
+              </div>
               <div class="scroll scroll-arrow scroll-down show-for-large-up">
                 <a href="#app-donate" class="cycle-next"><i class="fa fa-chevron-circle-down"></i></a>
               </div>
@@ -352,6 +362,8 @@
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/foundation/js/foundation.min.js"></script>
   <script src="/js/min/app-ck.js" async></script>
+  <script src="/bower_components/crossplatform-smartbanner/jquery.smartbanner.js"></script>
+  <script src="js/goodcity-smart-banner.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
 
