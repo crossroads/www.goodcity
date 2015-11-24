@@ -3,7 +3,7 @@ var web_ios_win = navigator.userAgent.match(/Macintosh|Windows|Safari/i) != null
 $.smartbanner({
   title: 'GoodCity',
   author: 'Crossroads',
-  icon: '/assets/images/Global-Distribution_logo.jpg',
+  icon: '/assets/images/goodcity-logo.png',
   iconGloss: false,
   hideOnInstall: true,
   force: web_ios_win ? null : (android ? 'android' :  'ios'),
