@@ -1,0 +1,42 @@
+{
+  "name": "crossplatform-smartbanner",
+  "main": "jquery.smartbanner.js",
+  "homepage": "https://github.com/shivanibhanwal/jquery.smartbanner",
+  "version": "1.2.0",
+  "authors": [
+    "Shivani <shivanibhanwal@gmail.com>"
+  ],
+  "description": "This will help to show smart banner on multiple platforms like ios, android, web and windows etc",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "smartbanner",
+    "smart",
+    "banner",
+    "cross-platform"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "README.md",
+    "windowstest.html",
+    "index.html"
+  ],
+  "dependencies": {
+    "jquery": ">=1.10.2"
+  },
+  "_release": "1.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.0",
+    "commit": "acc51c112de89eaf0f2a7dae1092b367afff4da9"
+  },
+  "_source": "git://github.com/shivanibhanwal/jquery.smartbanner.git",
+  "_target": "^1.0.0",
+  "_originalSource": "crossplatform-smartbanner"
+}
