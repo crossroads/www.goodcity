@@ -1,5 +1,4 @@
 .goodcity-logo-banner {
-    width: 100%;
     display: none;
 }
 
@@ -21,6 +20,7 @@
         width: 60%;
         margin: 0 auto;
         margin-top: 2em;
+        max-width: 650px;
     }
 }
 
