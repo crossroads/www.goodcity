@@ -1,0 +1,58 @@
+
+version: 2
+
+defaults: &defaults
+  docker:
+    - image: circleci/ruby:2.3
+  working_directory: ~/www.goodcity
+
+jobs: 
+  checkout_code:
+    <<: *defaults
+    steps:
+      - checkout
+      - save_cache:
+          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ~/www.goodcity
+  test:
+    <<: *defaults
+    steps: 
+      - run: echo 'No tests to run...'
+
+  bundle_dependencies:
+    <<: *defaults
+    steps:
+      - run: gem install bundler
+      - restore_cache:
+          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+      - restore_cache:
+         key: v1-bundle-{{ checksum "Gemfile.lock" }}
+      - run: bundle check --path=vendor/bundle || bundle install --deployment --jobs=4 --retry=3
+      - save_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+  deploy:
+    <<: *defaults
+    steps:
+      - restore_cache:
+          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+      - restore_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+      - run: bundle --path vendor/bundle
+      - run: |
+          [ "$CIRCLE_BRANCH" == "live" ] && bundle exec cap production deploy || bundle exec cap staging deploy
+  
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - checkout_code
+      - bundle_dependencies:
+          requires:
+            - checkout_code
+      - test
+      - deploy:
+          requires:
+            - bundle_dependencies
