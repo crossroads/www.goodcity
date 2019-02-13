@@ -15,12 +15,8 @@ jobs:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
           paths:
             - ~/www.goodcity
-  test:
-    <<: *defaults
-    steps: 
-      - run: echo 'No tests to run...'
 
-  bundle_dependencies:
+  bundle_and_deploy:
     <<: *defaults
     steps:
       - run: gem install bundler
@@ -29,18 +25,6 @@ jobs:
       - restore_cache:
          key: v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle check --path=vendor/bundle || bundle install --deployment --jobs=4 --retry=3
-      - save_cache:
-          key: v1-bundle-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
-  deploy:
-    <<: *defaults
-    steps:
-      - restore_cache:
-          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
-      - restore_cache:
-          key: v1-bundle-{{ checksum "Gemfile.lock" }}
-      - run: bundle --path vendor/bundle
       - run: |
           [ "$CIRCLE_BRANCH" == "live" ] && bundle exec cap production deploy || bundle exec cap staging deploy
   
@@ -49,10 +33,6 @@ workflows:
   build_and_deploy:
     jobs:
       - checkout_code
-      - bundle_dependencies:
+      - bundle_and_deploy:
           requires:
             - checkout_code
-      - test
-      - deploy:
-          requires:
-            - bundle_dependencies
