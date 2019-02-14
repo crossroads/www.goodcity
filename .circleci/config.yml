@@ -36,3 +36,6 @@ workflows:
       - bundle_and_deploy:
           requires:
             - checkout_code
+          filters:
+            branches:
+              only: /^(master|live)$/
