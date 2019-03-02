@@ -10,6 +10,7 @@
 <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.3/mobile-detect.min.js"></script>
 <body>
   <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
 
     // Redirect to Apple App Store / Google Play Store / Web Browser apps depending on mobile/web platform
     //   with thanks to http://hgoebl.github.io/mobile-detect.js/
@@ -57,6 +58,8 @@
       url = url_map[app]['web'] + '?ln=' + ln
     }
     document.location = url;
+
+  });
   </script>
 </body>
 </html>
