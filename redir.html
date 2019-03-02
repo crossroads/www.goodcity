@@ -1,0 +1,53 @@
+<html>
+<script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.3/mobile-detect.min.js"></script>
+<body>
+  <script>
+
+    // Redirect to Apple App Store / Google Play Store / Web Browser apps depending on mobile/web platform
+    // Example usage (all available options shown):
+    //   redir.html?app=donor&ln=en
+    //   redir.html?app=admin&ln=zh-tw
+    //   redir.html?app=stock&ln=en
+    //   redir.html?app=browse&ln=zh-tw
+
+    var url_map = {
+      donor: {iOS: 'https://itunes.apple.com/in/app/goodcity.hk/id1012253845', AndroidOS: 'https://play.google.com/store/apps/details?id=hk.goodcity.app', web: 'https://app.goodcity.hk/'},
+      admin: {iOS: 'https://itunes.apple.com/in/app/goodcityadmin-hk/id1013288708', AndroidOS: 'https://play.google.com/store/apps/details?id=hk.goodcity.admin', web: 'https://admin.goodcity.hk/'},
+      stock: {iOS: 'https://itunes.apple.com/in/app/goodcitystock-hk/id1144806764', AndroidOS: 'https://play.google.com/store/apps/details?id=hk.goodcity.stock', web: 'https://stock.goodcity.hk/'},
+      browse: {iOS: 'https://itunes.apple.com/in/app/goodcity-for-charities/id1160648653', AndroidOS: 'https://play.google.com/store/apps/details?id=hk.goodcity.browse', web: 'https://browse.goodcity.hk/'}
+    }
+    
+    function getParameterByName(name) {
+        var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+        return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+    }
+
+    // whitelist only 4 app options in query string
+    var query_string_app = getParameterByName('app');
+    switch(query_string_app) {
+      case 'admin':
+        app = 'admin';
+        break;
+      case 'stock':
+        app = 'stock';
+        break;
+      case 'browse':
+        app = 'browse';
+        break;
+      default:
+        app = 'donor';
+    }
+
+    // Explicitly 'zh-tw' or otherwise 'en'
+    var ln = (getParameterByName('ln') === 'zh-tw') ? 'zh-tw' : 'en';
+
+    var md = new MobileDetect(window.navigator.userAgent);
+    var os = md.os();
+    var url = url_map[app][os]
+    if (!url) {
+      url = url_map[app]['web'] + '?ln=' + ln
+    }
+    document.location = url;
+  </script>
+</body>
+</html>
