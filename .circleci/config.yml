@@ -6,7 +6,7 @@ defaults: &defaults
     - image: circleci/ruby:2.6
   working_directory: ~/www.goodcity
 
-jobs: 
+jobs:
   bundle_and_deploy:
     <<: *defaults
     steps:
@@ -15,7 +15,7 @@ jobs:
       - run: bundle check --path=vendor/bundle || bundle install --deployment --jobs=4 --retry=3
       - run: |
           [ "$CIRCLE_BRANCH" == "live" ] && bundle exec cap production deploy || bundle exec cap staging deploy
-  
+
 workflows:
   version: 2
   build_and_deploy:
