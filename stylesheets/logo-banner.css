@@ -65,5 +65,7 @@
     width: 30%;
 }
 .goodcity-logo-banner .content .contributors .contributor.jockey_club {
-    width: 60%;
+    width: 60%;        
+    height: 8em;
+    margin-top: -5%;
 }
