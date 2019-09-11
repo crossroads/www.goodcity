@@ -65,12 +65,13 @@
     width: 30%;
 }
 
+.goodcity-logo-banner .content .contributors .contributor.jockey_club.label {
+    margin-top: 0 !important;
+    background-color: unset !important;
+}
+
 .goodcity-logo-banner .content .contributors .contributor.jockey_club {
     width: 60%;
     height: 8em;
     margin-top: -5%;
-}
-
-.goodcity-logo-banner .content .contributors .contributor.jockey_club.label {
-    margin-top: 0;
 }
