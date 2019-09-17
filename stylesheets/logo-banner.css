@@ -66,8 +66,8 @@
 }
 
 .goodcity-logo-banner .content .contributors .contributor.jockey_club.label {
-    margin-top: unset;
-    background-color: unset;
+    margin-top: 0;
+    background-color: transparent;
     color:#95a7b0;
 }
 
