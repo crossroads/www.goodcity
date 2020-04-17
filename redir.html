@@ -22,6 +22,7 @@
       admin: {iOS: 'https://itunes.apple.com/in/app/goodcityadmin-hk/id1013288708', AndroidOS: 'https://play.google.com/store/apps/details?id=hk.goodcity.admin', web: 'https://admin.goodcity.hk/'},
       stock: {iOS: 'https://itunes.apple.com/in/app/goodcitystock-hk/id1144806764', AndroidOS: 'https://play.google.com/store/apps/details?id=hk.goodcity.stock', web: 'https://stock.goodcity.hk/'},
       browse: {iOS: 'https://browse.goodcity.hk/', AndroidOS: 'https://play.google.com/store/apps/details?id=hk.goodcity.browse', web: 'https://browse.goodcity.hk/'}
+	  feedback: {iOS: 'https://crossroads-foundation.formstack.com/forms/goodcity_feedback', AndroidOS: 'https://crossroads-foundation.formstack.com/forms/goodcity_feedback', web: 'https://crossroads-foundation.formstack.com/forms/goodcity_feedback'}
     }
     
     function getParameterByName(name) {
@@ -40,6 +41,9 @@
         break;
       case 'browse':
         app = 'browse';
+        break;
+      case 'feedback':
+        app = 'feedback';
         break;
       default:
         app = 'donor';
