@@ -36,6 +36,36 @@
     gtag('js', new Date());
     gtag('config', 'UA-62978462-5');
   </script>
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does GoodCity do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We take in donations of all kinds, and ensure that quality items donated to us through the goodwill of families, organisations and businesses are then distributed to individuals or organisations in need."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is GoodCity.HK different from other charities and NGO’s in Hong Kong?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "GoodCity.HK promotes generosity and giving through our charity donation app, where we connect people by facilitating the process of donation with the help of volunteers to review, receive, and process donations in Hong Kong."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you come to pick up my donation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We ask our donors to deliver goods to us. In the past GoodCity.HK was among the charities that collect items no matter where you were in Hong Kong. However, due to the overwhelming generosity and support we received from our community in Hong Kong, we no longer have enough volunteers that can pick up donations."
+        }
+      }
+    ]
+  }</script>
 
   <script type="application/ld+json">
     {
@@ -134,6 +164,9 @@
     }
     #intro-text h2 i {
       padding-right: 0.8em;
+    }
+    #intro-text .no-border {
+      border: none;
     }
     .scroll,
     .scroll-text {
@@ -331,12 +364,12 @@
           <div class="screen current" id="intro">
             <div id="intro-text">
               <h1>GoodCity<em>.HK</em><br><em class="chinese" lang="zh-hant">好人好市</em></h1>
-              <h2>Your quality donated items can help people in need.</h2>
+              <h2 class="no-border">Your quality donated items can help people in need.</h2>
               <div>
                 <p><a href="/redir.html?app=donor" class="button large">Donate goods now<br/></a></p>
                 <h5 class="scroll force-display"><a href="#app-donate" class="force-display cycle-next">Learn more</a></h5>
                 <div class="separation-line"></div>
-                <h2>Need quality donated goods for your Hong Kong charity?</h2>
+                <h2 class="no-border">Need quality donated goods for your Hong Kong charity?</h2>
                 <h5><a href="/redir.html?app=browse">Visit GoodCity for charities <i class="fa fa-external-link"> </i></a></h5>
               </div>
               <div class="goodcity-logo-banner">
