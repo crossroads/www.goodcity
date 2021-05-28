@@ -1,29 +1,38 @@
-# Foundation Compass Template
+# Site Guide
 
-The easiest way to get started with Foundation + Compass.
+## Install and Run Jekyll Locally
 
-## Requirements
+```
+gem install bundler jekyll
+bundle exec jekyll serve
+```
+Now open http://localhost:4000
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
 
-## Quickstart
+## Layouts
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
+There are 3 site layouts
 
-```bash
-compass watch
+- default (one column)
+- two-column
+- blog
+
+If you want a right-hand side element, use two-column layout and specify `second-column: sponsors.html` where `sponsors.html` is located in the `includes/` folder.
+
+## Front Matter
+
+To specific language versions e.g. for a page called `ngo.md`, create a corresponding file called `zh/ngo.md`. Both files should contain the following front matter:
+
+```
+lang: en
+lang-en: /ngo.html
+lang-zh: /zh/ngo.html
 ```
 
-## Upgrading
+_Note: swap the `lang: en` for `lang: zh` on the `/zh/ngo.md` version._
 
-If you'd like to upgrade to a newer version of Foundation down the road just run:
+This will set the correct `<html lang="en">` header and also the `<link rel="alternate" hreflang="zh-hant">` tags. Some templates also incorporate `{% if page.lang == 'en' %}` style code which is set by these parameters. The language switcher also uses the `lang-xx` tags to switch to the correct page.
 
-```bash
-bower update
-```
+## Blog Posts
+
+Put all blog posts in the `_posts` folder using the structure `yyyy-mm-dd-name-of-post-<lang>.md`. There should be a `en` version and a `zh` version. Use the front matter above to set the correct urls for the language switcher.

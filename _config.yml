@@ -1,3 +1,20 @@
+exclude:
+  - .circleci/
+  - .jekyll-cache/
+  - .vs/
+  - bower_components/
+  - config/
+  - .bowerrc
+  - .gitignore
+  - .htaccess
+  - .ruby-version
+  - bower.json
+  - Capfile
+  - circle.yml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
 defaults:
   -
     scope:

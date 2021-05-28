@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="{{ page.lang }}">
+
+  <head>
+
+    {% include header.html %}
+  
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFF6HXH"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="row full-width collapse">
+      <div class="large-2 medium-3 columns show-for-medium-up menu" id="menu-large">
+
+        {% include left-menu.html %}
+
+      </div>
+      <div class="large-14 medium-13 columns collapse" id="content">
+        <div class="off-canvas-wrap" data-offcanvas>
+          <div class="inner-wrap">
+
+            {% include mobile-menu.html %}
+
+            <div class="row">
+              <div class="large-8 large-offset-1 medium-offset-1 medium-15 columns first">
+                
+                {{ content }}
+
+              </div>
+            </div>
+            
+            <a class="exit-off-canvas show-for-small"></a>
+            <div id="top-link"><a href="#content"><i class="fa fa-arrow-up"></i></a></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>
