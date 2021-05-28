@@ -30,9 +30,11 @@
     <a href="{{ page.lang-en }}">English</a>
   </p>
   <div class="icon-bar vertical one-up cr-logo">
-    <a href="https://www.crossroads.org.hk">
+    <a href="{% if page.lang == 'en' %}https://www.crossroads.org.hk/{% else %}https://www.crossroads.org.hk/zh-hant/{% endif %}">
       <img src="/assets/images/Global-Distribution_logo.gif" alt="By Crossroads Foundation" class="show-for-portrait">
-      <label>By Crossroads Foundation</label>
+      <label>
+        {% if page.lang == 'en' %}By Crossroads Foundation{% else %}國際十字路會製作{% endif %}
+      </label>
     </a>
   </div>
 
