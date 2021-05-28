@@ -1,0 +1,8 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "en"
+      title: "GoodCity.HK 好人好市 - Your quality donated items can help people in need."

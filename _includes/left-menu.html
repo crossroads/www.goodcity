@@ -1,0 +1,39 @@
+{% if page.lang == "zh" %}
+
+  <div class="icon-bar vertical four-up">
+    <a href="/zh/index.html" class="menu-1"><i class="fa fa-home"></i><label>主頁</label></a>
+    <a href="/zh/about.html" class="menu-2"><i class="fa fa-pencil"></i><label>好人好市簡介</label></a>
+    <a href="/zh/get-involved.html" class="menu-3"><i class="fa fa-plus"></i><label>伸出援手</label></a>
+    <a href="/zh/faq.html" class="menu-4"> <i class="fa fa-question fa-3x"></i><label>常見問題</label></a>
+  </div>
+  <p class="language">
+    <a href="{{ page.lang-zh }}" lang="zh-hant" hreflang="zh-hant">中文</a>
+    <a href="{{ page.lang-en }}">English</a>
+  </p>
+  <div class="icon-bar vertical one-up cr-logo">
+    <a href="https://www.crossroads.org.hk/zh-hant/">
+      <img src="/assets/images/Global-Distribution_logo.gif" alt="國際十字路會製作" class="show-for-portrait">
+      <label>國際十字路會製作</label>
+    </a>
+  </div>
+
+{% else %}
+
+  <div class="icon-bar vertical four-up">
+    <a href="/index.html" class="menu-1"><i class="fa fa-home"></i><label>Home</label></a>
+    <a href="/about.html" class="menu-2"><i class="fa fa-pencil"></i><label>About</label></a>
+    <a href="/get-involved.html" class="menu-3"><i class="fa fa-plus"></i><label>Get Involved</label></a>
+    <a href="/faq.html" class="menu-4"><i class="fa fa-question fa-3x"></i><label>FAQ</label></a>
+  </div>
+  <p class="language">
+    <a href="{{ page.lang-zh }}" lang="zh-hant" hreflang="zh-hant">中文</a>
+    <a href="{{ page.lang-en }}">English</a>
+  </p>
+  <div class="icon-bar vertical one-up cr-logo">
+    <a href="https://www.crossroads.org.hk">
+      <img src="/assets/images/Global-Distribution_logo.gif" alt="By Crossroads Foundation" class="show-for-portrait">
+      <label>By Crossroads Foundation</label>
+    </a>
+  </div>
+
+{% endif %}
