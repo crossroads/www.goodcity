@@ -1,17 +1,40 @@
+
 ---
-title: Blog 4
+title: How donating can help the environment
+description: When you donate your clothes and other gently used items, you are not only helping those in need but also saving the environment. Read more.
 layout: blog
 tags: en
+lang: en
+lang-en: /2020/08/28/donating-to-help-the-environment-en.html
+lang-zh: /2020/08/28/donating-to-help-the-environment-zh.html
 ---
 
-# Blog 4
+# How donating your gently used items can help the environment and those in need
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at luctus magna. Proin sed elit posuere, tempus lectus quis, imperdiet urna. Maecenas id mauris non orci malesuada varius. Cras in ipsum tortor. Suspendisse vehicula consequat erat at ullamcorper. Nunc sapien massa, ornare in sollicitudin quis, iaculis non turpis. Cras venenatis, lorem placerat ullamcorper scelerisque, nisl nisi pellentesque massa, quis mollis ex risus a quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam ac ligula sagittis, condimentum justo vel, sagittis nisi. Morbi a felis sem. Suspendisse in nisi nulla. Etiam non vestibulum nisl. Fusce a nibh ac sem sodales faucibus.
+In the age of eCommerce and fast fashion, it's easy to get caught up in the thrill of shopping for the latest must-have item or clothes. However, excessive consumption will put excessive burden on our environment's long-term carrying capacity and subsequently lead to reduced ecosystem health. To offset the effects of excessive consumerism, think about how you can give back to the environment. Every environmentally conscious step you take can help make a positive impact on our community. Donating gently used clothes and goods to charity can not only help support those in need, but it also has ripple effects around the planet. 
 
-Nam posuere diam at varius eleifend. Vivamus sit amet magna euismod, placerat diam sed, euismod ligula. Pellentesque hendrerit vel velit sed commodo. Nulla nec pharetra purus. Cras ac ultrices odio, varius laoreet turpis. Nam et mattis arcu, vel feugiat eros. Sed scelerisque ex ut metus aliquam blandit. Integer consectetur turpis vel urna feugiat consequat. Fusce eget neque turpis. Quisque convallis purus et tristique vulputate. Etiam at bibendum nulla. Sed quis est a tortor hendrerit bibendum at eget sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+Read on to find out our top 3 reasons why donating your gently used clothes, and household items can help your community and the environment!
 
-Morbi mattis lacus vel nisl aliquam, nec iaculis nunc pretium. Vestibulum lacinia, massa at tempor dapibus, felis nulla pharetra nibh, vel consectetur ligula arcu vitae dolor. Ut porta quam scelerisque sagittis finibus. Sed at aliquam arcu. Nunc non ex condimentum, tincidunt nisl eu, fermentum turpis. Pellentesque vel orci porta, consequat nulla ut, gravida risus. Donec vitae porttitor libero, ut facilisis orci.
+## Help those in need 
 
-Morbi lorem arcu, tempus ut sollicitudin vitae, iaculis facilisis quam. Donec ac orci ac ante tempus porttitor. Integer sagittis pretium est non viverra. Duis et cursus risus. Curabitur egestas est eu nulla hendrerit blandit. Mauris vel faucibus urna, id ullamcorper eros. Quisque aliquam auctor risus eget condimentum. Sed ac tortor scelerisque, dapibus ex vitae, vulputate est. Praesent at euismod orci. Vivamus nibh ligula, porttitor eget neque id, pretium tincidunt lectus. Suspendisse potenti. Praesent nec ex turpis. Pellentesque gravida rhoncus ipsum vitae molestie. Donec sodales ullamcorper massa.
+Charities and NGO's play a critical role in addressing problems around the world, and donors play a big part in helping these organizations tackle some of the world's problems. However, many businesses have built their businesses around encouraging people to consume. Passing on gently used clothes and household items gives them a second life with a new owner who will appreciate it. Not only does this minimize landfill waste, but it also helps curb the excessive demand of producing wasteful goods. 
 
-Aenean ac pharetra ipsum. In a diam ut est vulputate vehicula. Nullam consequat mi in diam luctus, id eleifend dui porta. Proin nec turpis a nunc mattis ornare. Vivamus vel lobortis libero. Nullam feugiat ante a orci malesuada interdum. Maecenas elementum felis non nisi posuere, fermentum feugiat urna sagittis. Quisque eu leo et erat pharetra pellentesque nec at lorem. Donec et odio nisl. Proin porta ipsum odio, in accumsan tortor sagittis vitae. Curabitur ac ante ac enim laoreet semper. Fusce et dictum enim. Donec semper leo quis libero sollicitudin aliquam ut et dolor.
+You can help people living in poverty by donating clothing and other items that you no longer require. From seasonal clothes, kid's toys, books to more common electrical appliances such as rice cookers, electric fans, and heaters, your hand-me-downs are particularly useful for the families who are in need.
+
+## Reduce your carbon footprint
+
+When you donate your belongings, such as clothes, you save the environment from a lot of harm. By donating used clothing and gently used household items, you'll be contributing to the circular economy where things are manufactured, used for as long as possible, then recycled. The longer something is in circulation, the fewer items will be produced and thrown away at landfills. This circulation of use allows items to be used to their full potential, creating a more sustainable environment and reducing harmful impacts. Moreover, you'll help conserve water and energy used in creating new garments and items, which will help offset the carbon emissions generated by the production process. 
+
+According to the Environmental Protection Agency, it costs $45 on average per ton to dispose of waste in a landfill [1]. Clothing and other items that sit in a landfill can release toxic greenhouse gases like carbon dioxide and methane into the environment when they break down. Those noxious gases can harm the environment and the community around the area.  Additionally, producing new clothes takes hundreds of gallons of water. The production of new textiles accounts for 10% of all carbon emissions on the plane - all of which can be avoided if you donate your clothes and gently used household items for reuse.
+
+## Save water 
+
+The fashion industry uses excessive amounts of water to produce clothes. Take cotton, for example, a popular material used in textile production – but also highly water-intensive. A cotton t-shirt takes an average of 2,700 litres of water to create [2]. When you donate gently used clothes to be reused by the next owner, it reduces garment production demand. 
+
+Secondly, clothing donation saves water by protecting it from reducing chemical pollutants in the air. When unwanted garments and textiles sit in vast landfills, they will start to release toxic gasses. When rain falls on those landfills, the water rinses out the chemicals, and together they accumulate at the base of the landfill, eventually finding their way down to the groundwater. By keeping your clothing in circulation longer, you can help someone who is in need of new clothes and help keep the environment safe.
+
+## Where can I donate my items?
+
+An experienced charity organization, such as GoodCity operated by the Crossroads Foundation has facilitated the donation of goods and helping those in need since 1995. Funded by the Hong Kong Jockey Club Charities Trust since 2018, GoodCity has ensured that donated goods from all over Hong Kong have helped nearly 300 non-profit organizations, benefiting more than 150,000 people. 
+
+Once you've submitted a picture of the item you wish to donate, GoodCity's team of experienced volunteers will review your items based on the status, demand, and quantity. We will then notify you if your items are available for donation. GoodCity also provides a variety of logistics options to transport your donated goods. You can book a commercial van immediately from within our app, or book a drop-off time at our headquarters in Tuen Muen if you have your own transport.
