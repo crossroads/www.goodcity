@@ -1,5 +1,5 @@
 ---
-title: Helping those in need during COVID-19: Fighting local poverty issues that need your attention and support
+title: "Helping those in need during COVID-19: Fighting local poverty issues that need your attention and support"
 description: "Low-income households have been hit the hardest with the negative impacts brought on by COVID-19. Read more to see how you can help!"
 layout: blog
 tags: en
