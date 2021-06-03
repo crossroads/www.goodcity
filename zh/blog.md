@@ -1,6 +1,6 @@
 ---
 title: GoodCity.HK 好人好市 - Your quality donated items can help people in need.
-layout: blog
+layout: default
 lang: zh
 lang-en: /blog.html
 lang-zh: /zh/blog.html
