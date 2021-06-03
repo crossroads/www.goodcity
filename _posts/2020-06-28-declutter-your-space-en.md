@@ -1,6 +1,7 @@
 ---
-title: Declutter your space: Find the joy of simplicity & the opportunity to help others
-description: Tired of your cluttered living space? Read on to learn how you can find the joy of a simple lifestyle and help those in need by donating your pre-loved items.layout: blog
+title: "Declutter your space: Find the joy of simplicity & the opportunity to help others"
+description: "Tired of your cluttered living space? Read on to learn how you can find the joy of a simple lifestyle and help those in need by donating your pre-loved items."
+layout: blog
 tags: en
 lang: en
 lang-en: /2020/06/28/declutter-your-space-en.html
