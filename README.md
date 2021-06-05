@@ -1,6 +1,6 @@
 # Site Guide
 
-https://www.goodcity.hk is hosted on GitHub Pages.
+https://www.goodcity.hk is hosted on GitHub Pages. Changes pushed to master branch will trigger a jekyll rebuild on the live site.
 
 ## Install and Run Jekyll Locally
 
