@@ -8,7 +8,7 @@ lang-zh: /zh/blog.html
 
 <div class="row">
 	<div class="small-13 small-offset-1 columns text-center">
-		<h1>GoodCity.HK Blog</h1>
+		<h1>GoodCity.HK 好人好市 博客</h1>
 	</div>
 </div>
 
