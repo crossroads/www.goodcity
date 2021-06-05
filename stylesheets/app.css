@@ -10374,7 +10374,7 @@ li {
     min-height: 37px;
     height: auto !important;
     height: 37px;
-    padding: 30px 5px;
+    padding: 10px 5px;
     font-size: 0.8em;
     text-transform: uppercase;
     text-align: center;
@@ -10385,11 +10385,13 @@ li {
 .menu a i {
     font-size: 2.8em;
     color: #FFF;
-    padding-bottom: 8px
+    padding-bottom: 8px;
+    padding-right: 8px;
 }
 
 .menu a label {
-    color: #FFF
+    color: #FFF;
+    display: inline-block;
 }
 
 .menu a.menu-1 {
@@ -10397,23 +10399,33 @@ li {
     min-height: 60px;
     height: auto !important;
     height: 60px;
-    background-color: #FB4951
+    background-color: #FB4951;
+    text-align: left;
+    padding-left: 20px
 }
 
 .menu a.menu-2 {
-    background-color: #0a3a61
+    background-color: #0a3a61;
+    text-align: left;
+    padding-left: 20px
 }
 
 .menu a.menu-3 {
-    background-color: #466684
+    background-color: #466684;
+    text-align: left;
+    padding-left: 20px
 }
 
 .menu a.menu-4 {
-    background-color: #97a7b9
+    background-color: #97a7b9;
+    text-align: left;
+    padding-left: 20px
 }
 
 .menu a.menu-5 {
     background-color: #002450;
+    text-align: left;
+    padding-left: 20px
 }
 
 .menu.left-off-canvas-menu a {
@@ -10426,7 +10438,7 @@ li {
 
 .menu.left-off-canvas-menu div.cr-logo a {
     padding: 0;
-    text-align: center
+    text-align: left
 }
 
 .left-off-canvas-menu i,
@@ -10462,7 +10474,8 @@ li {
 .cr-logo a label {
     color: #888;
     text-transform: none;
-    text-decoration: underline
+    text-decoration: underline;
+    text-align: center;
 }
 
 .cr-logo img {
@@ -10577,6 +10590,10 @@ li h5 {
 
 li i {
     margin-right: 0.2em
+}
+
+.blog ul li a {
+    text-decoration: none;
 }
 
 @media (min-width: 641px) {

@@ -16,7 +16,7 @@ We have one position currently open.
 
 - [NGO Liaison Officer](#ngoliaison)
 
-### [](#ngoliaison) NGO Liaison Officer
+### <a name="ngoliaison"></a>NGO Liaison Officer
 
 Crossroads Foundation is seeking an experienced Social Worker to help Hong Kong charities access a new
 service we are developing called GoodCity. GoodCity makes it easy for charities to browse

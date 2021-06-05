@@ -57,7 +57,7 @@ lang-zh: /zh/about.html
     <h4>Matthew Gow</h4>
     <h5>策劃人</h5>
     <p class="show-for-medium-up">十字路會技術總監。發展網上程式已逾十數載，一直希望建構可以分配物資的網上平台。</p>
-    <p><a href="http://about.me/mattgow" class="button small">關於我</a></p>
+    <p><a href="https://www.linkedin.com/in/mattgow" class="button small">關於我</a></p>
   </div>
   <div class="large-4 medium-13 medium-offset-1 columns feature-image round">
     <img src="../assets/images/steve-kenworthy.png" alt="Steve Kenworthy">
@@ -123,7 +123,7 @@ lang-zh: /zh/about.html
     <h4>Hogan Lovells</h4>
     <h5>義務法律諮詢</h5>
     <p class="show-for-medium-up">Hogan Lovells慷慨提供義務法律諮詢，讓各方的利益皆得到保障。</p>
-    <p><a href="http://www.hoganlovells.com/zh-CHS/offices/office.aspx?office=4" class="button small">網站</a></p>
+    <p><a href="https://www.hoganlovells.com/zh/locations/hong-kong" class="button small">網站</a></p>
   </div>
 </div>
 

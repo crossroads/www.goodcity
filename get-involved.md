@@ -11,13 +11,13 @@ lang-zh: /zh/get-involved.html
 
 GoodCity.HK depends on our excellent volunteers, partners and financial sponsors to help us deliver services to those in need. Please join us.
 
-### [](#financial) Donate Money
+### <a name="financial"></a>Donate Money
 
 GoodCity.HK has no salaried staff. Our main costs are in outsourced software development that allows us to expand and improve our services to the needy.
 
 <a href="https://www.crossroads.org.hk/home/donate-funds/" class="button small">Donate now</a>
 
-### [](#corporate-partnerships) Corporate Partnerships
+### <a name="corporate-partnerships"></a>Corporate Partnerships
 
 We are grateful to our key [corporate partners](/about.html#partners) for providing funding and world class services.
 
@@ -27,7 +27,7 @@ Companies also are invited to sponsor a collection vehicle and to have their log
 
 Please [contact us](mailto:contact@goodcity.hk?subject=Regarding%20truck%20sponsorship) to learn more.
 
-##### [Provide pro-bono services](#services)
+##### <a name="services"></a>Provide pro-bono services
 
 We are open to partnerships in a variety of areas including:
 
@@ -37,7 +37,7 @@ We are open to partnerships in a variety of areas including:
 - Other software development: Ruby, Rails, Ember.js, Node.js, others
 - Marketing & PR
 
-### [](#volunteer) Apply to become a regular volunteer
+### <a name="volunteer"></a>Apply to become a regular volunteer
       
 ##### **Reviewer:** volunteer from your phone!
 

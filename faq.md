@@ -13,13 +13,13 @@ GoodCity.HK aims to be the world's most efficient city-wide service for charitab
 
 In addition to the questions below, you may wish to read our [donation guidelines](/donate-guidelines.html) post.
 
-### [](#whatkindsofgoods) What kinds of items can be donated to GoodCity?
+### <a name="whatkindsofgoods"></a>What kinds of items can be donated to GoodCity?
 
 Items in good condition that could be a respectful gift to a charity or disadvantaged recipient.
 
 With GoodCity.HK you can find out if your item(s) are helpful just by taking a photo and waiting a few moments for review. Typical donations are of furniture, household goods, computers, electrical items and much more.
 
-### [](#howdoreviewersdecide) How do you decide what to accept?
+### <a name="howdoreviewersdecide"></a>How do you decide what to accept?
 
 Our reviewers see real-time supply and demand scores for every type of item. They combine this with considerations that vary for different kinds of items: quality requirements, size constraints, hazardous items, logistically difficult items, voltage, compatibility, parts and so on.
 
@@ -27,16 +27,16 @@ Reviewers can ask you questions via the app's messaging features. This means we 
 
 Reviewers also have live access to expert supervisors. Our supervisors have typically been facilitating donated goods in Hong Kong for at least five years. They know how to evaluate unusual offers: like a commercial pizza oven, 100,000 new business suits, boxes of artificial flowers and all manner of wierd and wonderful things.
 
-### [](#whattransportoptionsareavailable) What transport options are available to donors?
+### <a name="whattransportoptionsareavailable"></a>What transport options are available to donors?
 
 - **Fast commercial van hire:** from within our app you can book a truck. This is the fastest method and you pay the driver directly.
 - **Deliver yourself:** through the app you can book a time to drop the items at our Tuen Mun facility yourself.
 
-### [](#howarerequestsmade) How do people request goods?
+### <a name="howarerequestsmade"></a>How do people request goods?
 
 Social workers and charity staff have access to a specialised website and mobile app.
 
-### [](#whoishelped) Who is helped by these goods?
+### <a name="whoishelped"></a>Who is helped by these goods?
 
 We serve a range of need:
 
@@ -61,7 +61,7 @@ We serve a range of need:
 - Vocational training programmes
 - Welfare of animals
 
-### [](#canidonateoutsidehk) Can I donate goods from outside Hong Kong?
+### <a name="canidonateoutsidehk"></a>Can I donate goods from outside Hong Kong?
 
 No. But if you are a company offering a volume of goods outside Hong Kong you can use another service we developed
   called [Global Hand](https://www.globalhand.org).

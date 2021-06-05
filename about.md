@@ -63,7 +63,7 @@ lang-zh: /zh/about.html
     <h5>Chief Instigator</h5>
     <p class="show-for-medium-up">CTO at Crossroads Foundation. Building online tools for decades and wanting to pursue
       this project for years.</p>
-    <p><a href="https://www.linkedin.com/in/matthew-gow-0570a42b/" class="button small">Matt on LinkedIn</a></p>
+    <p><a href="https://www.linkedin.com/in/mattgow" class="button small">Matt on LinkedIn</a></p>
   </div>
   <div class="large-4 medium-13 medium-offset-1 columns feature-image round">
     <img src="assets/images/steve-kenworthy.png" alt="Steve Kenworthy">

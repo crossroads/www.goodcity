@@ -11,13 +11,13 @@ lang-zh: /zh/get-involved.html
 
 好人好市得以幫助有需要的人，有賴優秀的義工、合作夥伴及贊助人的支持。請即伸出援手，加入我們的工作吧！
 
-### [](#financial) 捐款
+### <a name="financial"></a>捐款
 
 好人好市的所有員工皆是義務無償工作的，主要的支出為聘請軟體工程公司，以不斷擴充及改善我們的服務。
 
 <a href="https://www.crossroads.org.hk/zh-hant/home/donate-funds/" class="button small">立即捐款</a>
 
-### [](#corporate-partnerships) 商業合作夥伴
+### <a name="corporate-partnerships"></a>商業合作夥伴
 
 我們主要的 [商業合作夥伴](/zh/about.html#partners) 提供資金及優質服務，對此我們非常感激。
 
@@ -27,7 +27,7 @@ lang-zh: /zh/get-involved.html
 
 請即[聯絡我們](mailto:contact@goodcity.hk?subject=Regarding%20truck%20sponsorship)，查詢詳情。
 
-##### [](#services) 提供義務服務
+##### <a name="services"></a>提供義務服務
 
 我們非常歡迎發展以下各方面的夥伴關係：
 
@@ -37,7 +37,7 @@ lang-zh: /zh/get-involved.html
 - 其他軟體發展：Ruby, Rails, Ember.js, Node.js及其他
 - 市場發展及公共關係
 
-### [](#volunteer) 申請成為常規義工
+### <a name="volunteer"></a>申請成為常規義工
 
 ##### **評估員：** 只需要通過手機，你就能成為義工！
 

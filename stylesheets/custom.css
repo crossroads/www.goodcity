@@ -38,3 +38,7 @@ a.google-play:after {
 .force-display {
     display: block !important;
 }
+
+.goodcity-logo-banner .content .contributors.logos {
+    /* margin-bottom: 0px!important */
+}
