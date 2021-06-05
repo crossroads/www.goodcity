@@ -1,5 +1,7 @@
 # Site Guide
 
+https://www.goodcity.hk is hosted on GitHub Pages.
+
 ## Install and Run Jekyll Locally
 
 ```
