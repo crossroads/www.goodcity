@@ -3,6 +3,7 @@
 ## Install and Run Jekyll Locally
 
 ```
+rvm install 2.7.3
 gem install bundler jekyll
 bundle exec jekyll serve
 ```
