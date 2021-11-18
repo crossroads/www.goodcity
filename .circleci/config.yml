@@ -1,0 +1,43 @@
+version: 2.1
+
+# ENV VARS required
+# AZURE_GOODCITY_STORAGE_NAME - name of the storage blob inside the Azure Subscription
+# AZURE_SP           - service principal id with upload permission on the storage blob
+# AZURE_SP_PASSWORD  - service principal password
+# AZURE_SP_TENANT    - tenant of servie principal
+
+orbs:
+  azure-cli: circleci/azure-cli@1.2.0
+
+defaults: &defaults
+  docker:
+    - image: cimg/ruby:2.7.3
+  working_directory: ~/code
+
+jobs:
+  build-and-deploy:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: gem install bundler
+      - restore_cache:
+         key: v1-bundle-{{ checksum "Gemfile.lock" }}
+      - run: bundle check --path=vendor/bundle || bundle install --deployment --jobs=4 --retry=3
+      - save_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run: bundle exec jekyll build
+      - azure-cli/install
+      - azure-cli/login-with-service-principal
+      - run: az storage blob upload-batch -s _site -d \$web/www-${CIRCLE_BRANCH}-goodcity --account-name ${AZURE_GOODCITY_STORAGE_NAME}
+      - run: az storage blob delete-batch -s \$web --account-name ${AZURE_GOODCITY_STORAGE_NAME} --pattern www-${CIRCLE_BRANCH}-goodcity/* --if-unmodified-since $(date -d "1 day ago" '+%Y-%m-%dT%H:%MZ')
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build-and-deploy:
+          filters:
+            branches:
+              only: /^(master|live)$/
