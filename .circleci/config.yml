@@ -9,14 +9,11 @@ version: 2.1
 orbs:
   azure-cli: circleci/azure-cli@1.2.0
 
-defaults: &defaults
-  docker:
-    - image: cimg/ruby:2.7.3
-  working_directory: ~/code
-
 jobs:
   build-and-deploy:
-    <<: *defaults
+    docker:
+      - image: cimg/ruby:2.7.3
+    working_directory: ~/code
     steps:
       - checkout
       - run: gem install bundler
