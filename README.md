@@ -1,6 +1,19 @@
 # Site Guide
 
-https://www.goodcity.hk is hosted on GitHub Pages. Changes pushed to master branch will trigger a jekyll rebuild on the live site.
+
+## Deployment
+
+https://www.goodcity.hk is hosted on Azure CDN / Azure Storage. Changes pushed to the *live* branch will trigger a deployment via CircleCI.
+
+Likewise, changes pushed to *master* will trigger a CircleCI deployment to https://www-staging.goodcity.hk for review.
+
+Suggested workflow:
+
+* Develop locally on in GitHub web
+* Push changes to master
+* Review changes on https://www-staging.goodcity.hk
+* Create and merge pull-request master -> live
+* Changes will be pushed to https://www.goodcity.hk
 
 ## Install and Run Jekyll Locally
 
