@@ -14,6 +14,9 @@ lang-zh: /zh/index.html
   <div id="intro-text">
     <h1>GoodCity<em>.HK</em><br><em class="chinese" lang="zh-hant">好人好市</em></h1>
     <h2 class="no-border">慷慨捐贈物品，扶持弱勢社群。</h2>
+
+    {% include mobile-links.html lang="zh" %}
+
     <div>
       <p><a href="/redir.html?app=donor&ln=zh-tw" class="button large">⽴即捐贈物資<br /></a></p>
       <h5 class="scroll force-display"><a href="#app-donate" class="force-display cycle-next">了解更多</a></h5>

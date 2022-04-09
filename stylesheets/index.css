@@ -63,7 +63,6 @@ body {
 }*/
 #intro-text h2 {
   display: inline-block;
-  white-space: nowrap;
   font-size: 1.2em;
   margin: 2em auto;
   border: 2px solid #FFF;
@@ -93,9 +92,30 @@ body {
   display: none;
 }
 
-.store-badges, .qr-codes img {
-  height: 15rem!important;
-  width: auto!important;
+.mobile-links {
+  margin-bottom: 1rem;
+}
+.mobile-links .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mobile-links .store-badges img, .mobile-links .qr-codes img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  position: relative;;
+}
+.mobile-links .store-badges img {
+  max-height: 4rem;
+}
+.mobile-links .qr-codes img {
+  max-height: 15rem;
+}
+.mobile-links a::after {
+  display: none;
 }
 
 /* Large */

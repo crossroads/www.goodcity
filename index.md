@@ -17,18 +17,7 @@ lang-zh: /zh/index.html
     <h1>GoodCity<em>.HK</em><br><em class="chinese" lang="zh-hant">好人好市</em></h1>
     <h2 class="no-border">Your quality donated items can help people in need.</h2>
 
-    <div class="row hide-for-small-only store-badges">
-      <div class="columns small-4"><img src="/assets/images/android-donor-app-play-store-badge.png" /></div>
-      <div class="columns small-4"><img src="/assets/images/ios-donor-app-store-link-black.svg" /></div>
-    </div>
-    <div class="row hide-for-small-only qr-codes">
-      <div class="columns small-5 small-offset-1"><img src="/assets/images/android-donor-app-qr-code.png" /></div>
-      <div class="columns small-5 small-offset-1"><img src="/assets/images/ios-donor-app-qr-code.jpg" /></div>
-    </div>
-    <div class="hide-for-small-only">
-      <p>Don't have a smart phone? <a href="">Use your browser.</a> (Note: does not support Safari)</p>
-    </div>
-
+    {% include mobile-links.html %}
 
     <div>
       <p><a href="/redir.html?app=donor" class="button large">Donate goods now<br /></a></p>
