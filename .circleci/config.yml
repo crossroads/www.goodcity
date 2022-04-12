@@ -27,7 +27,7 @@ jobs:
       - run: bundle exec jekyll build
       - azure-cli/install
       - azure-cli/login-with-service-principal
-      - run: az storage blob upload-batch -s _site -d \$web/www-${CIRCLE_BRANCH}-goodcity --account-name ${AZURE_GOODCITY_STORAGE_NAME}
+      - run: az storage blob upload-batch -s _site -d \$web/www-${CIRCLE_BRANCH}-goodcity --account-name ${AZURE_GOODCITY_STORAGE_NAME} --overwrite
       - run: az storage blob delete-batch -s \$web --account-name ${AZURE_GOODCITY_STORAGE_NAME} --pattern www-${CIRCLE_BRANCH}-goodcity/* --if-unmodified-since $(date -d "1 day ago" '+%Y-%m-%dT%H:%MZ')
 
 workflows:
