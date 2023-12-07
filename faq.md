@@ -71,3 +71,15 @@ No. But if you are a company offering a volume of goods outside Hong Kong you ca
 Hong Kong is uniquely positioned to have the world’s most efficient system for charitable goods donation: high population density, short distances, penetration of smart-phones, relative wealth, well organised charitable sector and a climate of growing social awareness.
 
 The Crossroads Foundation has been facilitating donated goods in Hong Kong since 1995 and has developed numerous complex online services (e.g. business.un.org) making it an organisation uniquely placed to realise this opportunity.
+
+### <a name="account-deletion"></a>Mobile App Account Deletion
+
+You may request account deletion for any of our apps: GoodCity, GoodCity Admin, GoodCity Stock, or GoodCity for Charities by emailing
+
+<a href="mailto:contact@goodcity.hk">contact@goodcity.hk</a>
+
+<strong>Important notes:</strong>
+
+- Please include the mobile number or email address that you used to sign up to the GoodCity platform so that we may correctly identify your account.
+- Please ensure that any outstanding donations or orders have been completed and closed before submitting a deletion request.
+- Please note that some of your details may be retained to adhere with our compliance and auditing obligations. All information will be treated in accordance with our <a href="https://app.goodcity.hk/pics">Personal Information Collection Statement</a>, <a href="https://app.goodcity.hk/terms_and_conditions">Terms and Conditions</a> and the <a href="https://www.crossroads.org.hk/home/contact/privacy/">Crossroads Foundation Privacy Policy</a>.
