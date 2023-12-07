@@ -18,8 +18,9 @@ Suggested workflow:
 ## Install and Run Jekyll Locally
 
 ```
-rvm install 2.7.3
-gem install bundler jekyll
+rvm install 3.1.4
+gem install bundler
+bundle install
 bundle exec jekyll serve
 ```
 Now open http://localhost:4000
