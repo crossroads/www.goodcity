@@ -72,7 +72,7 @@ Hong Kong is uniquely positioned to have the world’s most efficient system for
 
 The Crossroads Foundation has been facilitating donated goods in Hong Kong since 1995 and has developed numerous complex online services (e.g. business.un.org) making it an organisation uniquely placed to realise this opportunity.
 
-### <a name="account-deletion"></a>Mobile App Account Deletion
+### <a name="account-deletion"></a>Account Deletion
 
 You may request account deletion for any of our apps: GoodCity, GoodCity Admin, GoodCity Stock, or GoodCity for Charities by emailing
 
