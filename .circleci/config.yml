@@ -7,7 +7,7 @@ version: 2.1
 # AZURE_SP_TENANT    - tenant of servie principal
 
 orbs:
-  azure-cli: circleci/azure-cli@1.2.0
+  azure-cli: circleci/azure-cli@1.2.2
 
 jobs:
   build-and-deploy:
