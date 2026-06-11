@@ -49,68 +49,6 @@ lang-zh: /zh/about.html
 
 <div class="row">
   <div class="small-13 small-offset-1 columns text-center">
-    <h1>Core Team</h1>
-    <p>GoodCity is the tip of an iceberg. Every staff member at Crossroads Foundation (all of whom are self-funded
-      volunteers), thousands of part-time volunteers and a myriad of supporters that keep Crossroads running are
-      necessary for GoodCity to accomplish anything.</p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="large-4 large-offset-1 medium-13 medium-offset-1 columns feature-image round">
-    <img src="assets/images/matthew-gow.jpg" alt="Matthew Gow">
-    <h4>Matthew Gow</h4>
-    <h5>Chief Instigator</h5>
-    <p class="show-for-medium-up">CTO at Crossroads Foundation. Building online tools for decades and wanting to pursue
-      this project for years.</p>
-    <p><a href="https://www.linkedin.com/in/mattgow" class="button small">Matt on LinkedIn</a></p>
-  </div>
-  <div class="large-4 medium-13 medium-offset-1 columns feature-image round">
-    <img src="assets/images/steve-kenworthy.png" alt="Steve Kenworthy">
-    <h4>Steve Kenworthy</h4>
-    <h5>Chief Engineer</h5>
-    <p class="show-for-medium-up">Head of Software Engineering at Crossroads Foundation. Steve makes computers do things
-      that help people.</p>
-    <p><a href="https://github.com/steveyken" class="button small">Steve in code</a></p>
-  </div>
-  <div class="large-4 medium-13 medium-offset-1 columns feature-image round end">
-    <img src="assets/images/nokia.jpg" alt="Nokia Cheung">
-    <h4>Nokia Cheung (R.S.W)</h4>
-    <h5>NGO Liaison</h5>
-    <p class="show-for-medium-up">Nokia helps Hong Kong's charities and social workers get the most out of GoodCity for
-      their projects and beneficiaries.</p>
-    <p><a href="https://www.linkedin.com/in/nokiacheung/" class="button small">Nokia on LinkedIn</a></p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="large-4 large-offset-1 medium-13 medium-offset-1 columns feature-image round">
-    <img src="assets/images/michael-mcdonald.jpg" border="0" alt="Michael McDonald">
-    <h4>Michael McDonald</h4>
-    <h5>Software Engineer</h5>
-    <p class="show-for-medium-up">Michael has contributed his considerable software engineering talents to make GoodCity
-      a reality.</p>
-    <p><a href="https://github.com/mcm-ham" class="button small">Michael in code</a></p>
-  </div>
-  <div class="large-4 medium-13 medium-offset-1 columns feature-image round">
-    <img src="assets/images/jenny-ng.jpg" alt="Jenny Ng">
-    <h4>Jenny Ng</h4>
-    <h5>Translator</h5>
-    <p class="show-for-medium-up">Jenny helps us say what we mean to every audience.</p>
-    <!-- <p><a href="https://github.com/steveyken" class="button small">Steve in code</a></p> -->
-  </div>
-  <div class="large-4 medium-13 medium-offset-1 columns feature-image round end">
-    <!--<img src="assets/images/sidney-hustwayte.jpg" border="0">-->
-    <div class="generic"><i class="fa fa-camera"></i></div>
-    <h4>You?</h4>
-    <h5>Volunteer with us</h5>
-    <p class="show-for-medium-up">Become a GoodCity volunteer. </p>
-    <p><a href="get-involved.html#volunteer" class="button small">Read more</a></p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="small-13 small-offset-1 columns text-center">
     <h1 id="partners">Sponsors, Partners, Advisors, Contributors</h1>
   </div>
 </div>
@@ -157,40 +95,13 @@ lang-zh: /zh/about.html
     <h5>Co-working space</h5>
     <p class="show-for-medium-up">We are grateful to Garage Society for providing us with access to their workspace and
       their think tank.</p>
-    <p><a href="http://www.thegaragesociety.com/" class="button small">Website</a></p>
+    <p><a href="https://www.thegaragesociety.com/" class="button small">Website</a></p>
   </div>
   <div class="large-4 large-offset-1 medium-13 medium-offset-1 columns feature-image round end">
-    <div class="generic"><i class="fa fa-camera"></i></div>
-    <h4>Your Company?</h4>
-    <h5>Become a Corporate Partner</h5>
-    <p class="show-for-medium-up">If your company's resources might be a strategic advantage to GoodCity.HK please get
-      in touch.</p>
-    <p><a href="get-involved.html#corporate-partnerships" class="button small">Read more</a></p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="large-4 large-offset-1 medium-13 medium-offset-1 columns feature-image round">
-    <img src="assets/images/adam-george.jpg" alt="Adam George">
-    <h4>Adam George</h4>
-    <h5>Web Developer</h5>
-    <p class="show-for-medium-up">Adam volunteers his years of experience to help develop our public website.</p>
-    <p><a href="https://medium.com/@adaw" class="button small">Website</a></p>
-  </div>
-  <div class="large-4 medium-13 medium-offset-1 columns feature-image round">
-    <img src="assets/images/jane-portman.jpg" alt="Jane Portman">
-    <h4>UI Breakfast</h4>
-    <h5>UI/UX Consulting</h5>
-    <p class="show-for-medium-up">We engaged Jane Portman at UI Breakfast for UI/UX and art direction. You should too.
-    </p>
-    <p><a href="http://uibreakfast.com/" class="button small">website</a></p>
-  </div>
-  <div class="large-4 medium-13 medium-offset-1 columns feature-image round end">
-    <div class="generic"><i class="fa fa-camera"></i></div>
-    <h4>Your Company?</h4>
-    <h5>Become a Corporate Partner</h5>
-    <p class="show-for-medium-up">If your company's resources might be a strategic advantage to GoodCity.HK please get
-      in touch.</p>
-    <p><a href="get-involved.html#corporate-partnerships" class="button small">Read more</a></p>
+    <img src="assets/images/termius-icon-256.png" alt="Termius" width="200px" height="200px">
+    <h4>Termius</h4>
+    <h5>Modern SSH Client</h5>
+    <p class="show-for-medium-up">Termius provides a secure, reliable, and collaborative SSH client.</p>
+    <p><a href="https://termius.com/" class="button small">Read more</a></p>
   </div>
 </div>
