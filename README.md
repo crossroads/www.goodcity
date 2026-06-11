@@ -9,7 +9,7 @@ Likewise, changes pushed to *master* will trigger a CircleCI deployment to https
 
 Suggested workflow:
 
-* Develop locally on in GitHub web
+* Develop locally or in GitHub web
 * Push changes to master
 * Review changes on https://www-staging.goodcity.hk
 * Create and merge pull-request master -> live
