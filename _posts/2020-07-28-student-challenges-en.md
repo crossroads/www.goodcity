@@ -30,4 +30,4 @@ Funded by the Hong Kong Jockey Club Charities Trust since 2018, GoodCity has mad
 
 To donate your goods, simply use the app to submit clear pictures of the item you want to donate. A member of our volunteer team will review your item and make a decision based on the status, demand, quantity, etc. before letting you know whether your goods can help others. 
 
-GoodCity also provides a variety of logistics options, letting you choose a suitable transportation method for your donated goods. You can book a commercial van immediately from within our app, or if you've got your own transport, you can book a time to drop your items off at our headquarters in Tuen Mun.
+GoodCity also provides a variety of logistics options, letting you choose a suitable transportation method for your donated goods. You can arrange your own van through GoGoX or Lalamove and tell us in our app when it will arrive, or if you've got your own transport, you can book a time to drop your items off at our headquarters in Tuen Mun.

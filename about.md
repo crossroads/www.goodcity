@@ -82,14 +82,6 @@ lang-zh: /zh/about.html
 
 <div class="row">
   <div class="large-4 medium-13 medium-offset-1 columns feature-image">
-    <img src="assets/images/gogovan.jpg" alt="GoGoVan">
-    <h4>GoGoVan</h4>
-    <h5>Logistics Partner</h5>
-    <p class="show-for-medium-up">Commercial van hire can be booked from within the GoodCity App. But behind the
-      scenes... GoGoVan!</p>
-    <p><a href="http://gogovan.com.hk/en/" class="button small">Website</a></p>
-  </div>
-  <div class="large-4 large-offset-1 medium-13 medium-offset-1 columns feature-image">
     <img src="assets/images/garage-society.gif" alt="Garage Society">
     <h4>Garage Society</h4>
     <h5>Co-working space</h5>

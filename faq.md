@@ -29,7 +29,7 @@ Reviewers also have live access to expert supervisors. Our supervisors have typi
 
 ### <a name="whattransportoptionsareavailable"></a>What transport options are available to donors?
 
-- **Fast commercial van hire:** from within our app you can book a truck. This is the fastest method and you pay the driver directly.
+- **Arrange your own van:** book and pay for a van yourself in the GoGoX or Lalamove app, then tell us in the GoodCity app when it will arrive. You pay the driver directly.
 - **Deliver yourself:** through the app you can book a time to drop the items at our Tuen Mun facility yourself.
 
 ### <a name="howarerequestsmade"></a>How do people request goods?
