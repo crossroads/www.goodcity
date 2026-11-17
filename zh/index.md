@@ -86,12 +86,12 @@ lang-zh: /zh/index.html
 
 <div class="row screen" id="app-transport">
   <div class="large-5 medium-offset-1 medium-15 columns first">
-    <h1>一鍵貨運</h1>
-    <p>提供多樣的物流選擇，包括快捷方便的電召貨運車，和需要稍候、但費用較低的資助收貨服務。<br><a href="/zh/faq.html#whattransportoptionsareavailable">更多詳情</a></p>
+    <h1>運送安排</h1>
+    <p>你可透過GoGoX或Lalamove自行安排貨車，並在好人好市程式內告訴我們貨車到達時間；如你有自己的交通工具，亦可預約時間親自將物資送到我們位於屯門的會址。<br><a href="/zh/faq.html#whattransportoptionsareavailable">更多詳情</a></p>
     <p><a href="/redir.html?app=donor&ln=zh-tw" class="button large">⽴即捐贈物資<br /></a></p>
   </div>
   <div class="large-9 large-offset-1 medium-15 medium-offset-1 columns second">
-    <img src="/assets/images/intro-app-transport.png" alt="Intro to App Transport">
+    <img src="/assets/images/intro-app-transport.png" alt="GoodCity app transport options">
   </div>
   <div class="scroll scroll-arrow scroll-up show-for-large-up">
     <a href="#app-items" class="cycle-prev"><i class="fa fa-chevron-circle-up"></i></a>

@@ -90,13 +90,13 @@ lang-zh: /zh/index.html
 <div class="row screen" id="app-transport">
   <div class="large-5 medium-offset-1 medium-15 columns first">
     <h2>What about transport?</h2>
-    <p>You can book a commercial van immediately from within our app! If you've got your own transport you can book a
-      time to drop your items off at our Tuen Mun facility. <a href="faq.html#whattransportoptionsareavailable">Learn
-        more</a></p>
+    <p>Arrange your own van with GoGoX or Lalamove and tell us in our app when it will arrive. If you've got your own
+      transport you can book a time to drop your items off at our Tuen Mun facility.
+      <a href="faq.html#whattransportoptionsareavailable">Learn more</a></p>
     <p><a href="/redir.html?app=donor" class="button large">Donate goods now<br /></a></p>
   </div>
   <div class="large-9 large-offset-1 medium-15 medium-offset-1 columns second">
-    <img src="/assets/images/intro-app-transport.png" alt="Intro to App Transport">
+    <img src="/assets/images/intro-app-transport.png" alt="GoodCity app transport options">
   </div>
   <div class="scroll scroll-arrow scroll-up show-for-large-up">
     <a href="#app-items" class="cycle-prev"><i class="fa fa-chevron-circle-up"></i></a>

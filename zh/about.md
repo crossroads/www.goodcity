@@ -128,13 +128,6 @@ lang-zh: /zh/about.html
 </div>
 
 <div class="row">
-  <div class="large-4 large-offset-1 medium-13 medium-offset-1 columns feature-image">
-    <img src="../assets/images/gogovan.jpg" alt="GoGoVan">
-    <h4>GoGoVan</h4>
-    <h5>物流合作夥伴</h5>
-    <p class="show-for-medium-up">你能夠通過好人好市僱用運輸車輛，秘訣在於... GoGoVan！</p>
-    <p><a href="http://gogovan.com.hk/" class="button small">網站</a></p>
-  </div>
   <div class="large-4 large-offset-1 medium-13 medium-offset-1 columns feature-image end">
     <img src="../assets/images/garage-society.gif" alt="Garage Society">
     <h4>Garage Society</h4>
